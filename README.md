@@ -2,8 +2,6 @@
 
 This project demonstrates the integration of Microsoft SQL Server and Java using JDBC (Java Database Connectivity). It allows you to connect to a database, execute SQL queries, and retrieve data using Java code.
 
-## How our Java JTable looks when run:
-<img src="Ouput.png" alt="JTable Output">
 
 ## Overview
 This project integrates SQL and Java to manage and visualize academic scheduling data. It involves designing a database, implementing SQL procedures, and developing a Java application to execute these procedures and display the results using Java Swing's `JTable`.
@@ -16,6 +14,10 @@ This project integrates SQL and Java to manage and visualize academic scheduling
 
 
 - **Java Application Development**: Developed a Java application using JDBC to execute SQL procedures on Microsoft SQL Server. Integrated the application with Java Swing's `JTable` for displaying query results, enhancing cross-platform data management, visualization, and operational efficiency.
+
+## How our Java JTable looks when run:
+<img src="Ouput.png" alt="JTable Output">
+
 
 ## Features
 - **SQL Procedure Execution**: Execute stored SQL procedures to load and manage academic scheduling data.
