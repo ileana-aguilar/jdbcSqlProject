@@ -13,12 +13,12 @@ public class CreateTable {
         ResultSetMetaData metaData = rs.getMetaData();
         int columnCount = metaData.getColumnCount();
 
-        // Add columns
+        
         for (int column = 1; column <= columnCount; column++) {
             tableModel.addColumn(metaData.getColumnName(column));
         }
 
-        // Add rows
+        
         while (rs.next()) {
             Object[] row = new Object[columnCount];
             for (int column = 1; column <= columnCount; column++) {
