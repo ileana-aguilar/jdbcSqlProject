@@ -1,4 +1,4 @@
-# QueensClassScheduleCurrentSemester Project
+#  ERD-Based Academic Management Application	
 
 This project demonstrates the integration of Microsoft SQL Server and Java using JDBC (Java Database Connectivity). It allows you to connect to a database, execute SQL queries, and retrieve data using Java code.
 
